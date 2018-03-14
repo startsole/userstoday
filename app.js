@@ -1,5 +1,5 @@
 const port = process.env.PORT;
-const parseAppID = process.env.APPID; //define this locally
+const parseAppID = process.env.APPID; //define this locally ok
 
 const express = require("express");
 const app = express();
