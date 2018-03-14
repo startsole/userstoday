@@ -24,7 +24,7 @@ app.set('views', __dirname + '/views');
 app.use(require("body-parser").urlencoded({extended: false}));
 
 //main route & view set up with publishable key
-app.get("/", (req, res) => {
+app.post("/", (req, res) => {
   var numberOfUsers = 666;
 
 
