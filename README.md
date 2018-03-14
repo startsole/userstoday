@@ -1,6 +1,11 @@
-# userstoday
+# userstoday Slack Bot
 
-A quick stats page for number of users signed up for StartSole. To be implemented as a Slack Bot.
+A Slack bot that tells you how many new users have signed up for StartSOLE today.
+
+To use it in SOLE's slack, type: `/userstoday`
+
+This is what it will look like in Slack:
+![](example.png)
 
 
 Basic version is now working & deployed!
