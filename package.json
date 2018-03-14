@@ -1,7 +1,7 @@
 {
-  "name": "userstoday.startsole.org",
+  "name": "New Users Signed Up Today for startSOLE",
   "version": "1.0.0",
-  "description": "how many users signed up for startsole today",
+  "description": "how many new users have signed up today for startsole?",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
