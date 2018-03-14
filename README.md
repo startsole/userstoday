@@ -4,3 +4,11 @@ A quick stats page for number of users signed up for StartSole. To be implemente
 
 
 Work in Progress!
+
+Next steps:
+
+* push to github
+* connect to heroku
+* add env to heroku
+* connect slack to heroku webpage
+* test in slack
