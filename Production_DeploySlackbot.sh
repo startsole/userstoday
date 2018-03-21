@@ -3,6 +3,6 @@ set -e
 
 SSHTARGET="parse@solestaging"
 
-rsync ./* -e ssh $SSHTARGET:~/admin/slackbot
+rsync -r ./* -e ssh $SSHTARGET:~/admin/slackbot
 
 echo "Done"
