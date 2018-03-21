@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "slackbot",
+      "instances": "1",
+      "script": "node app.js",
+      "node_args": "--max-old-space-size=8192 --expose-gc",
+      "max_memory_restart" : "1024M",
+      "watch": false,
+        "ignore_watch": ["logs"],
+      "merge_logs": true,
+      "cwd": "/home/parse/admin/slackbot",
+      "env": {
+        "PORT": "7777",
+        "PARSE_SERVER_APPLICATION_ID": "Hcwnq8U7xN4Z2bXcSBdvv4bjfRNKCpPSahXgeq9xRp"
+        }
+    }
+  ]
+}
