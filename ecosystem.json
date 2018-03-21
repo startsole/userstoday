@@ -3,7 +3,7 @@
     {
       "name": "slackbot",
       "instances": "1",
-      "script": "node app.js",
+      "script": "app.js",
       "node_args": "--max-old-space-size=8192 --expose-gc",
       "max_memory_restart" : "1024M",
       "watch": false,
